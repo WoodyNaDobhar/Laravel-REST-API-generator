@@ -1,19 +1,19 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Routes;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Routes;
 
 
 use Illuminate\Database\Eloquent\Model;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
-use TMPHP\RestApiGenerators\Compilers\Swagger\SwaggerFiltersCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\SwaggerIntegerFiltersCompiler;
-use TMPHP\RestApiGenerators\Support\Helper;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\SwaggerFiltersCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\SwaggerIntegerFiltersCompiler;
+use WoodyNaDobhar\Dingo2Generators\Support\Helper;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class CrudModelRoutesCompiler
  * @property  model
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class CrudModelRoutesCompiler extends StubCompilerAbstract
 {

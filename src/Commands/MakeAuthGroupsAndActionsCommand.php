@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
@@ -9,11 +9,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class MakeAuthGroupsAndActionsCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeAuthGroupsAndActionsCommand extends Command
 {

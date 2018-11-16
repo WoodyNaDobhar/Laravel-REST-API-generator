@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
-use TMPHP\RestApiGenerators\Compilers\Controllers\CrudControllerCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Controllers\CrudControllerCompiler;
 
 /**
  * Class MakeCrudControllersCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeCrudControllersCommand extends Command
 {

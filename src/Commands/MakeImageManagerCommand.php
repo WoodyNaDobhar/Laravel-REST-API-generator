@@ -1,18 +1,18 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schema;
-use TMPHP\RestApiGenerators\Compilers\Controllers\ImageControllerCompiler;
-use TMPHP\RestApiGenerators\Compilers\Routes\ImageRoutesCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Controllers\ImageControllerCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Routes\ImageRoutesCompiler;
 
 /**
  * Class MakeImageManagerCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeImageManagerCommand extends Command
 {

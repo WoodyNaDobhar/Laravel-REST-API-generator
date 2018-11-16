@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\AbstractEntities;
+namespace WoodyNaDobhar\Dingo2Generators\AbstractEntities;
 
 use Dingo\Api\Http\Request;
 use Dingo\Api\Routing\Helpers;
@@ -13,8 +13,8 @@ use Illuminate\Routing\Controller as IlluminateController;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\ValidationException;
 use League\Fractal\TransformerAbstract;
-use TMPHP\RestApiGenerators\Exceptions\WrongTypeException;
-use TMPHP\RestApiGenerators\Helpers\Traits\ErrorFormatable;
+use WoodyNaDobhar\Dingo2Generators\Exceptions\WrongTypeException;
+use WoodyNaDobhar\Dingo2Generators\Helpers\Traits\ErrorFormatable;
 
 /**
  * Base Controller contained most uses methods and vars
@@ -22,7 +22,7 @@ use TMPHP\RestApiGenerators\Helpers\Traits\ErrorFormatable;
  *
  * Class ControllerAbstract
  *
- * @package TMPHP\RestApiGenerators\AbstractEntities
+ * @package WoodyNaDobhar\Dingo2Generators\AbstractEntities
  */
 abstract class ControllerAbstract extends IlluminateController
 {

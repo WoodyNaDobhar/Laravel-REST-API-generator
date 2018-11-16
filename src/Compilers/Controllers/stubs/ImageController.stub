@@ -6,8 +6,8 @@ use {{modelsNamespace}}\{{Model}};
 use {{transformersNamespace}}\{{Model}}Transformer;
 use Dingo\Api\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use TMPHP\RestApiGenerators\Support\ImageUploader;
-use TMPHP\RestApiGenerators\AbstractEntities\ControllerAbstract;
+use WoodyNaDobhar\Dingo2Generators\Support\ImageUploader;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\ControllerAbstract;
 
 class {{Model}}Controller extends ControllerAbstract
 {

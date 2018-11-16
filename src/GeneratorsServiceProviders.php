@@ -1,24 +1,24 @@
 <?php
 
-namespace TMPHP\RestApiGenerators;
+namespace WoodyNaDobhar\Dingo2Generators;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
-use TMPHP\RestApiGenerators\Commands\IdeHelperCommand;
-use TMPHP\RestApiGenerators\Commands\MakeAuthGroupsAndActionsCommand;
-use TMPHP\RestApiGenerators\Commands\MakeCrudControllersCommand;
-use TMPHP\RestApiGenerators\Commands\MakeCrudModelsCommand;
-use TMPHP\RestApiGenerators\Commands\MakeCrudRoutesCommand;
-use TMPHP\RestApiGenerators\Commands\MakeCrudTransformersCommand;
-use TMPHP\RestApiGenerators\Commands\MakeImageManagerCommand;
-use TMPHP\RestApiGenerators\Commands\MakeRestApiProjectCommand;
-use TMPHP\RestApiGenerators\Commands\MakeRestAuthCommand;
-use TMPHP\RestApiGenerators\Commands\MakeSwaggerModelsCommand;
-use TMPHP\RestApiGenerators\Commands\MakeSwaggerRootCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\IdeHelperCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeAuthGroupsAndActionsCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeCrudControllersCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeCrudModelsCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeCrudRoutesCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeCrudTransformersCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeImageManagerCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeRestApiProjectCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeRestAuthCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeSwaggerModelsCommand;
+use WoodyNaDobhar\Dingo2Generators\Commands\MakeSwaggerRootCommand;
 
 /**
  * Class GeneratorsServiceProviders
- * @package TMPHP\RestApiGenerators
+ * @package WoodyNaDobhar\Dingo2Generators
  */
 class GeneratorsServiceProviders extends ServiceProvider
 {

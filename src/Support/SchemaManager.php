@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Support;
+namespace WoodyNaDobhar\Dingo2Generators\Support;
 
 
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Log;
 
 /**
  * Class SchemaManager
- * @package TMPHP\RestApiGenerators\Support
+ * @package WoodyNaDobhar\Dingo2Generators\Support
  */
 class SchemaManager
 {

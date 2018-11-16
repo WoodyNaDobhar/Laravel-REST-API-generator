@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
-use TMPHP\RestApiGenerators\Compilers\Routes\ApiRoutesCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Routes\ApiRoutesCompiler;
 
 /**
  * Class MakeCrudRoutesCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeCrudRoutesCommand extends Command
 {

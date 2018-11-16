@@ -1,16 +1,16 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Controllers;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Controllers;
 
 use Doctrine\DBAL\Schema\Column;
 use Illuminate\Database\Eloquent\Model;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
-use TMPHP\RestApiGenerators\Compilers\Core\RulesArrayCompiler;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Core\RulesArrayCompiler;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class CrudControllerCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class CrudControllerCompiler extends StubCompilerAbstract
 {

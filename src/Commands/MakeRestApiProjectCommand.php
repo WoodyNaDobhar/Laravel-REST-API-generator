@@ -1,20 +1,20 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\Support\Helper;
+use WoodyNaDobhar\Dingo2Generators\Support\Helper;
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 use Xethron\MigrationsGenerator\MigrateGenerateCommand;
 
 /**
  * Class MakeRestApiProjectCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeRestApiProjectCommand extends Command
 {

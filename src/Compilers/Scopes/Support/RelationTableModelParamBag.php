@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Scopes\Support;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\Support;
 
 /**
  * Created by PhpStorm.
@@ -15,7 +15,7 @@ namespace TMPHP\RestApiGenerators\Compilers\Scopes\Support;
  * This is container for parameters:
  * relation's name, table's name and model's name.
  *
- * @package TMPHP\RestApiGenerators\Compilers\Scopes\Support
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\Support
  */
 class RelationTableModelParamBag
 {

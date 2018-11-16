@@ -1,16 +1,16 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Helpers\Traits\Auth;
+namespace WoodyNaDobhar\Dingo2Generators\Helpers\Traits\Auth;
 
 use Dingo\Api\Http\Request;
 use Dingo\Api\Routing\Helpers;
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\Helpers\Traits\ErrorFormatable;
+use WoodyNaDobhar\Dingo2Generators\Helpers\Traits\ErrorFormatable;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 /**
  * Trait Authenticatable
- * @package TMPHP\RestApiGenerators\Helpers\Traits
+ * @package WoodyNaDobhar\Dingo2Generators\Helpers\Traits
  */
 trait Authenticatable
 {

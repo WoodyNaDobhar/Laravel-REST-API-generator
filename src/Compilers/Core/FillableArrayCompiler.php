@@ -1,13 +1,13 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Core;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Core;
 
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class FillableArrayCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class FillableArrayCompiler extends StubCompilerAbstract
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Scopes;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Scopes;
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class WhereIntegerScopeCompiler
- * @package TMPHP\RestApiGenerators\Compilers\Scopes
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers\Scopes
  */
 class WhereStringScopeCompiler extends StubCompilerAbstract
 {

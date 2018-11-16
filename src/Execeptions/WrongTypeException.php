@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Exceptions;
+namespace WoodyNaDobhar\Dingo2Generators\Exceptions;
 
 use Throwable;
 

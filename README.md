@@ -25,7 +25,7 @@ There are two open source REST API projects on GitHub, developed using this gene
 
 Open your `config/app.php` and add this line in `providers` section
 ```php
-TMPHP\RestApiGenerators\GeneratorsServiceProviders::class,
+WoodyNaDobhar\Dingo2Generators\GeneratorsServiceProviders::class,
 Dingo\Api\Provider\LaravelServiceProvider::class,
 Way\Generators\GeneratorsServiceProvider::class,
 Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
@@ -58,7 +58,7 @@ Open your `config/jwt.php` and change line with a user's model namespace.
 Add middleware to App/Http/Kernel.php to the $routeMiddleware array.
 
 ```php
-'check.role.access' => \TMPHP\RestApiGenerators\Middleware\CheckAccess::class,
+'check.role.access' => \WoodyNaDobhar\Dingo2Generators\Middleware\CheckAccess::class,
 ```
 
 ### Swagger configuration

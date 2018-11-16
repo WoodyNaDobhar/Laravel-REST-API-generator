@@ -1,26 +1,26 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Models;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Models;
 
 
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
-use TMPHP\RestApiGenerators\Compilers\Core\FillableArrayCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\RelatedWhereFloatScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\RelatedWhereIntegerScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\RelatedWhereStringScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\Support\CompiledScopesHelper;
-use TMPHP\RestApiGenerators\Compilers\Scopes\Support\RelationTableModelParamBag;
-use TMPHP\RestApiGenerators\Compilers\Scopes\WhereDateTimeScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\WhereFloatScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\WhereIntegerScopeCompiler;
-use TMPHP\RestApiGenerators\Compilers\Scopes\WhereStringScopeCompiler;
-use TMPHP\RestApiGenerators\Support\Helper;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Core\FillableArrayCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\RelatedWhereFloatScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\RelatedWhereIntegerScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\RelatedWhereStringScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\Support\CompiledScopesHelper;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\Support\RelationTableModelParamBag;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\WhereDateTimeScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\WhereFloatScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\WhereIntegerScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\WhereStringScopeCompiler;
+use WoodyNaDobhar\Dingo2Generators\Support\Helper;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class CrudModelCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class CrudModelCompiler extends StubCompilerAbstract
 {

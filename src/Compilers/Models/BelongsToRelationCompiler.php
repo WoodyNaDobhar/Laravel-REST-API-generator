@@ -1,9 +1,9 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Models;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Models;
 
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 class BelongsToRelationCompiler extends StubCompilerAbstract
 {

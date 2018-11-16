@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
-use TMPHP\RestApiGenerators\Compilers\Models\CrudModelCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Models\CrudModelCompiler;
 
 /**
  * Class MakeCrudModelsCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeCrudModelsCommand extends Command
 {

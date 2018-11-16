@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\AbstractEntities;
+namespace WoodyNaDobhar\Dingo2Generators\AbstractEntities;
 
 /**
  * Class StubCompiler

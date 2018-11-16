@@ -1,12 +1,12 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Controllers;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Controllers;
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class AuthControllerCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class AuthControllerCompiler extends StubCompilerAbstract
 {

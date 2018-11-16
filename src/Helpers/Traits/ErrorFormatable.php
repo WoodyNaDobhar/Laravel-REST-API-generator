@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Helpers\Traits;
+namespace WoodyNaDobhar\Dingo2Generators\Helpers\Traits;
 
 use Dingo\Api\Http\Response;
 use Illuminate\Database\Eloquent\Model;

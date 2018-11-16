@@ -1,17 +1,17 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Core;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Core;
 
 
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Schema\ForeignKeyConstraint;
 use Doctrine\DBAL\Schema\Table;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class RulesArrayCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class RulesArrayCompiler extends StubCompilerAbstract
 {

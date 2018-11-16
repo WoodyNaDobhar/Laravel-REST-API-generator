@@ -1,10 +1,10 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Middleware;
+namespace WoodyNaDobhar\Dingo2Generators\Middleware;
 
 use Dingo\Api\Facade\Route;
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\Helpers\Traits\ErrorFormatable;
+use WoodyNaDobhar\Dingo2Generators\Helpers\Traits\ErrorFormatable;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use Tymon\JWTAuth\Facades\JWTAuth;
 

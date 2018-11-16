@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Artisan;
 
 /**
  * Class IdeHelperCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class IdeHelperCommand extends Command
 {

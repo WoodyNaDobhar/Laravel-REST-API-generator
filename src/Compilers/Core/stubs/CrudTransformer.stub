@@ -3,7 +3,7 @@
 namespace {{transformersNamespace}};
 
 use Illuminate\Database\Eloquent\Model;
-use TMPHP\RestApiGenerators\AbstractEntities\TransformerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\TransformerAbstract;
 
 
 class {{Model}}Transformer extends TransformerAbstract

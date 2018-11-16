@@ -1,11 +1,11 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Controllers;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Controllers;
 
 
 /**
  * Class ImageControllerCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class ImageControllerCompiler extends CrudControllerCompiler
 {

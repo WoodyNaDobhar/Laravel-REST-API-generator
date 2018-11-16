@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Contracts;
+namespace WoodyNaDobhar\Dingo2Generators\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\HttpFoundation\Response;

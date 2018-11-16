@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
-use TMPHP\RestApiGenerators\Compilers\Swagger\SwaggerDefinitionCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\SwaggerDefinitionCompiler;
 
 /**
  * Class MakeSwaggerModelsCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeSwaggerModelsCommand extends Command
 {

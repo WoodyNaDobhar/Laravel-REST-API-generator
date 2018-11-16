@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Swagger;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Swagger;
 
 
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class SwaggerFiltersCompiler
- * @package TMPHP\RestApiGenerators\Compilers\Swagger
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers\Swagger
  */
 class SwaggerFiltersCompiler extends StubCompilerAbstract
 {

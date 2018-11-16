@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
@@ -8,20 +8,20 @@ use Illuminate\Console\OutputStyle;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
-use TMPHP\RestApiGenerators\Compilers\Controllers\AuthControllerCompiler;
-use TMPHP\RestApiGenerators\Compilers\Controllers\ForgotPasswordControllerCompiler;
-use TMPHP\RestApiGenerators\Compilers\Routes\AuthRoutesCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\LoginDefinitionCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\RegisterDefinitionCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\ResetDefinitionCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\ResetLinkRequestDefinitionCompiler;
-use TMPHP\RestApiGenerators\Compilers\Swagger\ResetPasswordControllerCompiler;
-use TMPHP\RestApiGenerators\Support\Helper;
-use TMPHP\RestApiGenerators\Support\SchemaManager;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Controllers\AuthControllerCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Controllers\ForgotPasswordControllerCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Routes\AuthRoutesCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\LoginDefinitionCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\RegisterDefinitionCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\ResetDefinitionCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\ResetLinkRequestDefinitionCompiler;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\ResetPasswordControllerCompiler;
+use WoodyNaDobhar\Dingo2Generators\Support\Helper;
+use WoodyNaDobhar\Dingo2Generators\Support\SchemaManager;
 
 /**
  * Class MakeRestAuthCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeRestAuthCommand extends Command
 {
@@ -234,10 +234,10 @@ class MakeRestAuthCommand extends Command
         }
 
         //prepare replacement code
-        $replacement = "\n\n\t\t" . '$this->call(\TMPHP\RestApiGenerators\Database\Seeds\AclActionsTableSeeder::class);';
-        $replacement .= "\n\t\t" . '$this->call(\TMPHP\RestApiGenerators\Database\Seeds\AclGroupsTableSeeder::class);';
-        $replacement .= "\n\t\t" . '$this->call(\TMPHP\RestApiGenerators\Database\Seeds\AclActionGroupsTableSeeder::class);';
-        $replacement .= "\n\t\t" . '$this->call(\TMPHP\RestApiGenerators\Database\Seeds\AclGroupUsersTableSeeder::class);';
+        $replacement = "\n\n\t\t" . '$this->call(\WoodyNaDobhar\Dingo2Generators\Database\Seeds\AclActionsTableSeeder::class);';
+        $replacement .= "\n\t\t" . '$this->call(\WoodyNaDobhar\Dingo2Generators\Database\Seeds\AclGroupsTableSeeder::class);';
+        $replacement .= "\n\t\t" . '$this->call(\WoodyNaDobhar\Dingo2Generators\Database\Seeds\AclActionGroupsTableSeeder::class);';
+        $replacement .= "\n\t\t" . '$this->call(\WoodyNaDobhar\Dingo2Generators\Database\Seeds\AclGroupUsersTableSeeder::class);';
         $replacement .= "\n";
 
         $newDbSeederContent = Helper::appendCodeToMethod($dbSeederContent, $replacement, ' run()');

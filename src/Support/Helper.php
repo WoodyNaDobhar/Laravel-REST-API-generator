@@ -1,10 +1,10 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Support;
+namespace WoodyNaDobhar\Dingo2Generators\Support;
 
 /**
  * Class Helper
- * @package TMPHP\RestApiGenerators\Support
+ * @package WoodyNaDobhar\Dingo2Generators\Support
  */
 class Helper
 {

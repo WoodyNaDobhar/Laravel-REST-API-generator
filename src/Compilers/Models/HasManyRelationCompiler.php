@@ -1,15 +1,15 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Models;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Models;
 
 
 use Doctrine\DBAL\Schema\AbstractSchemaManager;
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class HasManyRelationCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class HasManyRelationCompiler extends StubCompilerAbstract
 {

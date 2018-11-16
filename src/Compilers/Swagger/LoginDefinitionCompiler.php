@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Swagger;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Swagger;
 
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 
 /**
  * Class LoginDefinitionCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class LoginDefinitionCompiler extends StubCompilerAbstract
 {

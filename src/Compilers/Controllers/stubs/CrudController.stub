@@ -3,7 +3,7 @@
 namespace {{controllersNamespace}};
 
 use {{modelsNamespace}}\{{Model}};
-use TMPHP\RestApiGenerators\AbstractEntities\ControllerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\ControllerAbstract;
 use {{transformersNamespace}}\{{Model}}Transformer;
 
 class {{Model}}Controller extends ControllerAbstract

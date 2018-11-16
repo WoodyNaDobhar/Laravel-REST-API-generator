@@ -1,15 +1,15 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Commands;
+namespace WoodyNaDobhar\Dingo2Generators\Commands;
 
 
 use Illuminate\Console\Command;
-use TMPHP\RestApiGenerators\Compilers\Swagger\SwaggerRootCompiler;
-use TMPHP\RestApiGenerators\Support\Helper;
+use WoodyNaDobhar\Dingo2Generators\Compilers\Swagger\SwaggerRootCompiler;
+use WoodyNaDobhar\Dingo2Generators\Support\Helper;
 
 /**
  * Class MakeSwaggerRootCommand
- * @package TMPHP\RestApiGenerators\Commands
+ * @package WoodyNaDobhar\Dingo2Generators\Commands
  */
 class MakeSwaggerRootCommand extends Command
 {

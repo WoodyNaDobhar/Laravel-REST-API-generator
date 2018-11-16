@@ -1,12 +1,12 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Routes;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Routes;
 
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class AuthRoutesCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class AuthRoutesCompiler extends StubCompilerAbstract
 {

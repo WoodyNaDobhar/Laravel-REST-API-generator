@@ -6,14 +6,14 @@
  * Time: 10:36
  */
 
-namespace TMPHP\RestApiGenerators\Exceptions;
+namespace WoodyNaDobhar\Dingo2Generators\Exceptions;
 
 
 use Throwable;
 
 /**
  * Class UnexpectedMagicCall
- * @package TMPHP\RestApiGenerators\Exceptions
+ * @package WoodyNaDobhar\Dingo2Generators\Exceptions
  */
 class UnexpectedMagicCall extends \Exception
 {

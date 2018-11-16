@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Database\Seeds;
+namespace WoodyNaDobhar\Dingo2Generators\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;

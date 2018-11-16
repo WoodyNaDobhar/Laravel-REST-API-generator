@@ -6,7 +6,7 @@
  * Time: 10:42
  */
 
-namespace TMPHP\RestApiGenerators\Compilers\Scopes\Support;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Scopes\Support;
 
 
 use Illuminate\Support\Facades\Log;

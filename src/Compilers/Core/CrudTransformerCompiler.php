@@ -1,14 +1,14 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Core;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Core;
 
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\Log;
-use TMPHP\RestApiGenerators\AbstractEntities\StubCompilerAbstract;
+use WoodyNaDobhar\Dingo2Generators\AbstractEntities\StubCompilerAbstract;
 
 /**
  * Class CrudTransformerCompiler
- * @package TMPHP\RestApiGenerators\Compilers
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers
  */
 class CrudTransformerCompiler extends StubCompilerAbstract
 {

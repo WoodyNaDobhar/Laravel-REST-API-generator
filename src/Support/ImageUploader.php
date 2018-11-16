@@ -1,6 +1,6 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Support;
+namespace WoodyNaDobhar\Dingo2Generators\Support;
 
 use App\REST\Image;//todo refactor required!
 use Illuminate\Support\Facades\Storage;

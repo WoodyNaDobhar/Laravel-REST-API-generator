@@ -1,16 +1,16 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\AbstractEntities;
+namespace WoodyNaDobhar\Dingo2Generators\AbstractEntities;
 
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use League\Fractal\ParamBag;
-use TMPHP\RestApiGenerators\Exceptions\UnexpectedMagicCall;
+use WoodyNaDobhar\Dingo2Generators\Exceptions\UnexpectedMagicCall;
 
 /**
  * Class TransformerAbstract
- * @package TMPHP\RestApiGenerators\AbstractEntities
+ * @package WoodyNaDobhar\Dingo2Generators\AbstractEntities
  */
 abstract class TransformerAbstract extends \League\Fractal\TransformerAbstract
 {

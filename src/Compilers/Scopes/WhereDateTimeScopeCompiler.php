@@ -1,11 +1,11 @@
 <?php
 
-namespace TMPHP\RestApiGenerators\Compilers\Scopes;
+namespace WoodyNaDobhar\Dingo2Generators\Compilers\Scopes;
 
 
 /**
  * Class WhereDateTimeScopeCompiler
- * @package TMPHP\RestApiGenerators\Compilers\Scopes
+ * @package WoodyNaDobhar\Dingo2Generators\Compilers\Scopes
  */
 class WhereDateTimeScopeCompiler extends WhereFloatScopeCompiler
 {
