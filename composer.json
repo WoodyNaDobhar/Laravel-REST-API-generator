@@ -28,11 +28,15 @@
     {
       "name": "Yan Datsyuk",
       "email": "yan.datsiuk@thinkmobiles.com"
+    },
+    {
+      "name": "Woody NaDobhar",
+      "email": "woodynadobhar@hotmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "TMPHP\\RestApiGenerators\\": "src/"
+      "'WoodyNaDobhar\\Dingo2Generators\\": "src/"
     }
   }
 }
