@@ -1,5 +1,5 @@
 {
-  "name": "woodynadobhar/rest-api-generators",
+  "name": "woodynadobhar/dingo2generators",
   "description": "Laravel REST API scaffolding.",
   "minimum-stability": "dev",
   "prefer-stable": true,
