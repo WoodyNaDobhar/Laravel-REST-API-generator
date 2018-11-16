@@ -1,5 +1,5 @@
 {
-  "name": "tmphp/rest-api-generators",
+  "name": "woodynadobhar/rest-api-generators",
   "description": "Laravel REST API scaffolding.",
   "minimum-stability": "dev",
   "prefer-stable": true,
